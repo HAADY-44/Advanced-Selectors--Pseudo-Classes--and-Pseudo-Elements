@@ -1,0 +1,43 @@
+/* Element Selectors */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkmagenta;
+    color: green;
+}
+
+h1{
+    color:darkslateblue;
+}
+
+a{
+    color: orangered;
+    text-decoration: none;
+}
+
+/* Pseudo Classes */
+
+a:hover{
+    color: pink;
+}
+/* child selector */
+
+ul>li{
+    font-weight: bolder;
+    color: lightseagreen;
+}
+/* sibling Selectors */
+h1+p{
+    background-color: lightslategray;
+    padding: 10px;
+    border-radius: 4px;
+}
+/* hover pseudo class */
+ul li:hover{
+    color: blueviolet;
+}
+/* 
+first letter pseudo elements */
+p::first-letter{
+    font-family: 200%;
+    color: burlywood;
+}
